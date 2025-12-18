@@ -1,0 +1,35 @@
+# === CORE LANGCHAIN LIBRARIES ===
+# Pinned for stability
+langchain==0.2.5
+langchain-community==0.2.5
+langchain-openai==0.1.8
+# === CORE LANGCHAIN LIBRARIES ===
+langchain==0.2.5
+langchain-community==0.2.5
+langchain-openai==0.1.8
+langchain-huggingface==0.0.3
+langchain-chroma==0.1.1
+langchain-experimental
+
+# === CORE ML LIBRARIES (SECURITY UPDATE) ===
+# Aggiornati per risolvere la vulnerabilità CVE-2025-32434
+torch>=2.6.0
+transformers>=4.41.0
+safetensors
+
+# === VECTOR STORE & RETRIEVAL ===
+chromadb==0.5.3
+flashrank==0.2.10
+
+# === DOCUMENT LOADING & MODELS ===
+pypdf
+sentence-transformers
+
+# === AI FRAMEWORK COMPATIBILITY FIX ===
+tf-keras
+
+# === UI & UTILITIES ===
+customtkinter==5.2.2
+pydantic~=2.0
+python-dotenv
+openrouter-client
