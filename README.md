@@ -39,10 +39,6 @@ graph TD
     Refusal --> Output
     Conversational --> Output
 
-```
-
----
-
 ## 🚀 Installation & Setup
 
 ### 1. Clone the Repository
