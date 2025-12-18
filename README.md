@@ -27,7 +27,6 @@ This system allows you to **bring your own LLM provider** (OpenRouter, OpenAI, G
 
 ## 🛠️ Architecture
 
-```mermaid
 graph TD
     User[User Query] --> Router{Semantic Router}
     Router -- "Off-topic" --> Refusal[Refusal Chain]
